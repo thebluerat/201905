@@ -95,7 +95,7 @@ public class Study2 {
 	}*/
 	
 	
-	public void Study4_Method() {
+	/*public void Study4_Method() {
 		System.out.println("공을 던지시오");
 		Scanner scan = new Scanner(System.in);
 		int d = scan.nextInt();
@@ -106,7 +106,21 @@ public class Study2 {
 			System.out.println("lose");
 		}
 	}
+	*/
 	
+	public void Study5_Method() {
+		Scanner scan = new Scanner(System.in);
+		int n = 1;
+		int h = 0;
+		while(n<4) {
+			System.out.println("터널의 높이를 입력하시오");
+			h = scan.nextInt();
+			n++;
+			if(h<=170)
+				break;
+		}
+		System.out.println("CRASH " + h);
+	}
 	
 	
 }

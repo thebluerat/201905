@@ -18,7 +18,7 @@ public class Study {
 		*/
 		
 		Study2 st = new Study2();
-		st.Study4_Method();
+		st.Study5_Method();
 	}
 
 }
